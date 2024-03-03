@@ -1,6 +1,6 @@
 
 import React from 'react'
-import ListSwitch from './listSwitch'
+import ListSwitch from './ListSwitch'
 import ListSide from './ListSide'
 
 function AnimeList() {

@@ -13,12 +13,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head><link rel="icon" href="logo.png" sizes="any" /></head>
+      <head>
+        <link rel="icon" href="logo.png" sizes="any" />
+      </head>
+      <GoogleTagManager gtmId="GTM-PWNFFXV9" />
       <body className={inter.className}>
-        <Navbar/>
+        <Navbar />
         {children}
-        <Footer/>
-        </body>
+        <Footer />
+      </body>
     </html>
   );
 }

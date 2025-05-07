@@ -6,6 +6,7 @@ export default function Home() {
   return (
     <div>
       <HeroSlider />
+      <a href="naufal-assyafiq.web.id" className="text-white ms-20 mt-auto">test cross domain</a>
       <AnimeList />
     </div>
   );
